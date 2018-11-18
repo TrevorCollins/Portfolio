@@ -1,0 +1,114 @@
+body {
+    background-image: url(../Images/bananas.png);
+    margin: auto;
+    color: #777777;
+    font-family: "arial", "helvetica neue", Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    height: 75px;
+    border: 2px solid #cccccc;
+}
+
+nav {
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+#header {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav a {
+    font-weight: bold;
+    color: #777777;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+#sideBorder {
+    border-left: 2px solid #777777;
+    border-right: 2px solid #777777;
+}
+
+#name {
+    background-color: #4aaaa5;
+    width: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.4;
+    height: 45px;
+    margin: 15px 0;
+}
+
+#mainBody {
+    width: 960px;
+    background: #ffffff;
+    margin: 15px auto;
+    border: 1px solid #cccccc;
+}
+
+h2 {
+    font-size: 1.75em;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 0 0 15px 10px;
+    border-bottom: 2px solid #cccccc;
+}
+
+img {
+    float: left;
+    height: 200px;
+    margin: 0 1em 0 10px;
+    border: 1px solid #cccccc;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* for portfolio page */
+
+.gallery {
+    margin: 0 0 0 20px;
+}
+
+.gallery li {
+    float: left;
+    margin: 10px auto;
+}
+
+#trivia {
+    clear: both;
+}
+
+#rps {
+    clear: both;
+}
+
+
+/* for contact page */
+
+#contactForm {
+    width: 940px;
+    margin: 10px;
+}
+
+/* just clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}

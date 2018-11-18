@@ -1,53 +1,62 @@
 body {
     background-image: url(../Images/bananas.png);
-    margin: auto;
     color: #777777;
     font-family: "arial", "helvetica neue", Helvetica, sans-serif;
+    font-weight: 300;
 }
 
 header {
     background-color: #ffffff;
-    height: 75px;
-    border: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
 }
 
 nav {
-    float: right;
-    margin: 10px 10px 0 0;
-}
-
-#header {
-    width: 960px;
-    margin: 0 auto;
+    line-height: 5em;
 }
 
 nav a {
     font-weight: bold;
     color: #777777;
-    padding: 0 5px;
     text-decoration: none;
 }
 
-#sideBorder {
+a:hover {
+    background: #777777;
+    color: #ffffff;
+}
+
+a:active {
+    color: #cccccc;
+}
+
+.about #about {
+    color: #cccccc;
+}
+
+.contact #contact {
+    color: #cccccc;
+}
+
+.portfolio #portfolio {
+    color: #cccccc;
+}
+
+#portfolio {
     border-left: 2px solid #777777;
     border-right: 2px solid #777777;
 }
 
 #name {
     background-color: #4aaaa5;
-    width: 250px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
+    font-size: 1.5em;
     text-align: center;
-    line-height: 1.4;
-    height: 45px;
-    margin: 15px 0;
+    line-height: 3.25em;
 }
 
-#mainBody {
-    width: 960px;
-    background: #ffffff;
-    margin: 15px auto;
+.mainBody {
+    background-color: #ffffff;
     border: 1px solid #cccccc;
 }
 
@@ -55,60 +64,73 @@ h2 {
     font-size: 1.75em;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 10px;
-    padding: 0 0 15px 10px;
     border-bottom: 2px solid #cccccc;
 }
 
 img {
-    float: left;
-    height: 200px;
-    margin: 0 1em 0 10px;
     border: 1px solid #cccccc;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.footer {
+    background: #777777;
+    color: #ffffff;
+    text-align: center;
+    line-height: 5em;
+    font-size: .75em;
+    border-top: 4px solid #4aaaa5;
 }
 
 
 /* for portfolio page */
 
-.gallery {
-    margin: 0 0 0 20px;
+
+ul {
+    list-style-type: none;
 }
 
-.gallery li {
-    float: left;
-    margin: 10px auto;
+.photoTag {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2.25em;
+    text-align: center;
+    color: #ffffff;
+    background: #4aaaa5;
 }
-
-#trivia {
-    clear: both;
-}
-
-#rps {
-    clear: both;
-}
-
 
 /* for contact page */
 
-#contactForm {
-    width: 940px;
-    margin: 10px;
+#fname {
+    border: 1px solid #777777;
+    border-radius: 5px;
+    font-size: 1em;
+    line-height: 2em;
 }
 
-/* just clearfix */
-
-.clearfix:before,
-.clearfix:after {
-    content: "";
-    display: table;
+#email {
+    border: 1px solid #777777;
+    border-radius: 5px;
+    font-size: 1em;
+    line-height: 2em;
 }
 
-.clearfix:after {
-    clear: both;
+#message {
+    border: 1px solid #777777;
+    border-radius: 5px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+#submit {
+    background: #4aaaa5;
+    font-family: "arial", "helvetica neue", Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+#submit:hover {
+    background: #ffffff;
+    color: #4aaaa5;
 }
